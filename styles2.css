@@ -1,0 +1,313 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    height: 100vh;
+    width:100vh;
+    /* width: 90vh; */
+}
+
+.menu {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+}
+
+li {
+    padding: 0.5rem;
+}
+
+/* .col-l {
+    display: flex;
+} */
+
+footer {
+    display: flex;
+}
+
+.top {
+    /* padding:0.5rem; */
+    padding: 2rem;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.col-l-bottom {
+    background-image: url(./imgs/oceanpic1.jpg);
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.c-script {
+    font-family: fantasy;
+    font-size:40px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.share {
+    width: 50px;
+    height: 50px;
+}
+
+.like {
+    width: 30px;
+}
+
+.center-ocean {
+    width: 100%;
+}
+
+.col-r-top {
+    background-image: url('./imgs/water-wave-surf.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.search-img {
+    display: flex;
+    /* float: right; */
+    justify-content: flex-end;
+    padding: 4rem;
+}
+
+.p2, .p3, .p4 {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    /* padding: 1rem; */
+    padding: 0.5rem;
+}
+
+.more {
+    text-align: center;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.coded-by {
+    text-align: center;
+}
+
+/* .col-l {
+    width: 100vh;
+    height: 100%;
+} */
+
+@media (min-width: 768px) {
+.page-wrapper {
+    height: 100vh;
+    display: flex;
+}
+
+.col-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* width: 70vh; */
+    /* width: 40vh; */
+    /* width: 30vh; */
+}
+
+.menu {
+    /* height: 52vh;
+    width: 30vh; */
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* flex: 2; */
+    height: 53%;
+    width: 35vh;
+}
+
+ul {
+    display: initial;
+    text-transform: uppercase;
+    /* padding: 2rem;
+    text-align: center; */
+    padding-top: 2rem;
+}
+
+li {
+    padding: 1rem;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+footer {
+    /* display: initial; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top {
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1px;
+    /* width: 138px; */
+}
+
+.col-l-bottom {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.chart, .plus {
+    padding: 1rem;
+}
+
+.col-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.top2 {
+    height: 100vh;
+    /* width: 61vh; */
+    width: 56vh;
+    /* margin-bottom: 41.9%; */
+}
+
+.c-script {
+    font-size: 50px;
+    margin-top: 35%;
+}
+
+.share, .like {
+    width: initial;
+    height: initial;
+}
+
+.bottom2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.center-ocean {
+    width: 100%;
+    height: 100%;
+}
+
+.col-r {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-r-top {
+    height: 62.6vh;
+}
+
+.search-img {
+    display: initial;
+}
+
+.search {
+    padding-top: 1rem;
+}
+
+.p2, .p3, .p4 {
+    margin-top: initial;
+    /* padding: initial; */
+}
+
+.col-r-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    text-align: center;
+    background-color: turquoise;
+    color: white;
+    display: initial;
+    padding: initial;
+}
+
+.coded-by {
+    color: white;
+}
+}
+
+@media (min-width: 1024px) {
+    .page-wrapper {
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu {
+        width: 50vh;
+    }
+
+    .top2 {
+        height: 62.5vh;
+        width: 56vh;
+    }
+
+    .bottom2 {
+        /* width: 70vh; */
+        height: 100px;
+    }
+
+    .search-img {
+        display: flex;
+    }
+
+    .p2, .p3, .p4 {
+        /* margin: 0px; */
+        /* margin: initial; */
+        /* margin-top: 0px; */
+        /* margin-top: initial; */
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+
+    /* .more {
+        display: flex;
+        padding: initial;
+    } */
+}
